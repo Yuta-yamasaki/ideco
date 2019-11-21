@@ -1,1 +1,7 @@
 <h1>ideco所得控除控除かんたん計算機</h1>
+<%= form_tag("/kekka") do %>
+<p> 年収を入力ください<p>
+  <%= text_field :income,:num1 %>
+  
+  <%= submit_tag "計算をする"%>
+<% end%>
